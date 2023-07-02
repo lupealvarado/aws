@@ -1,4 +1,4 @@
-# MS SQL Database Management System
+# AWS EC2
 
 ## Introduction
 
