@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This repository contains the work I've done for the AWS EC2 project. The project involved various tasks related to AWS services, including creating and managing VPCs, EC2 instances, EBS snapshots, RDS databases, and setting up auto scaling with load balancing.
+This repository contains the work I've done for the AWS project. The project involved various tasks related to AWS services, including creating and managing VPCs, EC2 instances, EBS snapshots, RDS databases, and setting up auto scaling with load balancing.
 
 ## Project Description
 
-The AWS EC2 project was a comprehensive exercise designed to provide hands-on experience with various AWS services. Throughout the project, I had to interact with various AWS services and perform tasks such as resizing instances, testing termination protection, and interacting with databases. The project provided a practical understanding of how to work with AWS services and how to manage cloud resources effectively.
+The AWS project was a comprehensive exercise designed to provide hands-on experience with various AWS services. Throughout the project, I had to interact with various AWS services and perform tasks such as resizing instances, testing termination protection, and interacting with databases. The project provided a practical understanding of how to work with AWS services and how to manage cloud resources effectively.
 
 ## Project Overview
 
