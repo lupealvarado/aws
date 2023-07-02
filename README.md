@@ -12,31 +12,31 @@ Throughout the project, I had to interact with various AWS services and perform 
 
 ## Steps Involved
 
-Add user-1 to the S3-Support Group: This was the first step in setting up the environment for the project. I added a user to the S3-Support Group to manage the S3 resources.
+1. Add user-1 to the S3-Support Group: This was the first step in setting up the environment for the project. I added a user to the S3-Support Group to manage the S3 resources.
 
-Add user-2 to the EC2-Support Group: I added another user to the EC2-Support Group. This user was responsible for managing the EC2 instances.
+2. Add user-2 to the EC2-Support Group: I added another user to the EC2-Support Group. This user was responsible for managing the EC2 instances.
 
-VPC: I created a VPC (Virtual Private Cloud) to provide a secure environment for the AWS resources that I was going to use in the project.
+3. VPC: I created a VPC (Virtual Private Cloud) to provide a secure environment for the AWS resources that I was going to use in the project.
 
-Additional Subnets: After creating the VPC, I created additional subnets. This was necessary to ensure that the resources were distributed across different Availability Zones for high availability and fault tolerance.
+4. Additional Subnets: After creating the VPC, I created additional subnets. This was necessary to ensure that the resources were distributed across different Availability Zones for high availability and fault tolerance.
 
-Amazon EC2 Instance: I launched an EC2 instance within the VPC. This was a bit challenging as I had to ensure that the security group rules allowed HTTP traffic to the web server.
+5. Amazon EC2 Instance: I launched an EC2 instance within the VPC. This was a bit challenging as I had to ensure that the security group rules allowed HTTP traffic to the web server.
 
-Monitor: I monitored the EC2 instance to ensure it was working correctly and to understand its performance characteristics.
+6. Monitor: I monitored the EC2 instance to ensure it was working correctly and to understand its performance characteristics.
 
-New EBS Volume: I created an EBS volume. This was necessary to provide persistent block storage for the EC2 instance.
+7. New EBS Volume: I created an EBS volume. This was necessary to provide persistent block storage for the EC2 instance.
 
-Attach: I attached the EBS volume to the EC2 instance. This allowed the instance to use the volume for storage.
+8. Attach: I attached the EBS volume to the EC2 instance. This allowed the instance to use the volume for storage.
 
-Connect: I connected to the EC2 instance to verify that it was working correctly.
+9. Connect: I connected to the EC2 instance to verify that it was working correctly.
 
-Auto Scaling: I created an Amazon Machine Image (AMI) from an existing EC2 instance. This AMI was used to launch new instances when scaling out.
+10. Auto Scaling: I created an Amazon Machine Image (AMI) from an existing EC2 instance. This AMI was used to launch new instances when scaling out.
 
-Load Balancer: I set up a load balancer to distribute incoming application traffic across multiple EC2 instances. It was a bit tricky to get the health checks configured correctly, but after a few tries, I got it working.
+11. Load Balancer: I set up a load balancer to distribute incoming application traffic across multiple EC2 instances. It was a bit tricky to get the health checks configured correctly, but after a few tries, I got it working.
 
-Launch Configuration and an Auto Scaling Group: I created a launch configuration with the AMI and instance type that the auto scaling group uses to launch instances. I then created an auto scaling group to ensure that the number of instances scales in or out depending on the load.
+12. Launch Configuration and an Auto Scaling Group: I created a launch configuration with the AMI and instance type that the auto scaling group uses to launch instances. I then created an auto scaling group to ensure that the number of instances scales in or out depending on the load.
 
-Verify: I verified that the load balancing was working correctly by checking the distribution of traffic across the instances.
+13. Verify: I verified that the load balancing was working correctly by checking the distribution of traffic across the instances.
 
 ## Challenges
 The project was quite challenging, especially when it came to configuring the security groups and setting up the load balancer. However, with some trial and error, I was able to overcome these challenges. The project was a great learning experience and helped me understand the practical aspects of working with AWS services.
