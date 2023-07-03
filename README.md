@@ -10,21 +10,21 @@ The AWS project was a comprehensive exercise designed to provide hands-on experi
 
 ## Project Overview
 
-1. Create a VPC and Additional Subnets: This was the first step in setting up the environment for the project. I created a VPC (Virtual Private Cloud) and additional subnets to provide a secure environment for the AWS resources.
+1. VPC and Additional Subnets: I created a VPC (Virtual Private Cloud) and additional subnets to provide a secure environment for the AWS resources.
 
-2. Launch an Amazon EC2 Instance: I launched an EC2 instance within the VPC and installed a web server on it. This was a bit challenging as I had to ensure that the security group rules allowed HTTP traffic to the web server.
+2. Amazon EC2 Instance: I launched an EC2 instance within the VPC and installed a web server on it. This was a bit challenging as I had to ensure that the security group rules allowed HTTP traffic to the web server.
 
-3. Monitor the EC2 Instance: I monitored the EC2 instance to understand its performance and to ensure that it was functioning as expected.
+3. Monitor EC2 Instance: I monitored the EC2 instance to understand its performance and to ensure that it was functioning as expected.
 
 4. New EBS Volume: I created a new EBS volume and attached it to the EC2 instance. This allowed me to increase the storage capacity of the instance.
 
-5. Security Group and a DB Subnet Group for the RDS DB Instance: I designed a security group and a DB subnet group for the RDS DB instance. This was necessary to ensure the security and proper functioning of the database.
+5. Security Group and DB Subnet Group for RDS DB Instance: I designed a security group and a DB subnet group for the RDS DB instance. This was necessary to ensure the security and proper functioning of the database.
 
 6. Amazon RDS DB Instance: I managed an Amazon RDS DB instance. This was a bit challenging as I had to ensure that the instance was properly configured and that it could connect to the EC2 instance.
 
-7. AMI for Auto Scaling: I retrieved an Amazon Machine Image (AMI) from an existing EC2 instance. This AMI was used to launch new instances when scaling out.
+7. AMI Auto Scaling: I retrieved an Amazon Machine Image (AMI) from an existing EC2 instance. This AMI was used to launch new instances when scaling out.
 
-8. Create a Load Balancer: I set up a load balancer to distribute incoming application traffic across multiple EC2 instances. It was a bit tricky to get the health checks configured correctly, but after a few tries, I got it working.
+8. Load Balancer: I set up a load balancer to distribute incoming application traffic across multiple EC2 instances. It was a bit tricky to get the health checks configured correctly, but after a few tries, I got it working.
 
 ## Challenges
 The project was quite challenging, especially when it came to configuring the security groups and setting up the load balancer. However, with some trial and error, I was able to overcome these challenges. The project was a great learning experience and helped me understand the practical aspects of working with AWS services.
